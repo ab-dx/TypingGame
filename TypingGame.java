@@ -28,6 +28,7 @@ class TypingGame{
 		for(int i = 1; i <= n ; i++){
 			game.makeWords();
 		}
+		System.out.println("Score: " + (((double) game.points / n) * 100) + "%");
 	}
 
 	public void makeWords(){
